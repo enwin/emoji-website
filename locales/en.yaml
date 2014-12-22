@@ -1,0 +1,31 @@
+---
+  lang: en
+  header:
+    nav:
+      screens: Screenshots
+      info: Info
+      get: Get it
+  main:
+    intro:
+      - "Get back your classic emoji keyboard ordered by category and including a history of the recent emojis you typed."
+      - "Like the vibration or the sound of typing? We've got you covered."
+    screens:
+      title: Screenshots
+      shots:
+        "first-page.png": "Example of layout."
+        "recents.png": "Recent category filled with the latest emojis you typed."
+        "typing.png": "Example of rendering in the message app."
+        "roll.png": "Example of bubble when you type an emoji."
+        "settings.png": "Settings page includes vibration and click sound, and allows you to clear the emoji history."
+    get:
+      title: Download it from the marketplace
+      caption: Get it in the Firefox Marketplace
+
+    more:
+      title: Information
+      text:
+        - "The emoji set embedded in Firefox OS (<em>NotoColorEmoji</em>) comes from Android KitKat and is incomplete. You might find that some emojis are missing (like the flags) and others are not colored but displayed as black shapes. The black shape emojis come from the fallback font <em>AndroidEmoji</em> that contains a bit more emoji symbols."
+        - "As long as Mozilla doesn't include a complete set of emoji symbols the keyboard won't be able to display them properly."
+        - "Found any bugs? Have any comments? Check out the <a href='https://github.com/enwin/emoji' target='_blank'>github repository</a>."
+  footer:
+    print: "Made for fun and convenience by <a href='https://twitter.com/enwin' target='_blank'>@enwin</a>"

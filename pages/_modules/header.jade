@@ -1,0 +1,12 @@
+header( role="banner" )
+  div.wrapper
+    include ../../_sources/icon.svg
+
+    h1.tt!= title
+    p!= description
+
+  nav( role="navigation" )
+    ul
+      each caption, id in l10n.header.nav
+        li
+          a( href=["#", id].join('') )!= caption

@@ -1,0 +1,33 @@
+---
+  title: emoji
+  description: an emoji keyboard for Firefox OS 2.0+
+  webapp: false
+  msColor: false
+  root: /
+  url:
+    css: css/
+    dyn: media/dyn/
+    icon: media/icons/
+    img: media/img
+    js: js/
+  meta:
+    viewport:
+      - width=device-width
+      - initial-scale=1
+    card:
+      default:
+        card: summary
+        site: '@enwin'
+        title: emoji
+        description: an emoji keyboard for Firefox OS 2.0+
+        image: 'http://enwin.io/emoji/media/icons/apple-touch-icon-120x120.png'
+        url: 'http://enwin.io/emoji/'
+    opengraph:
+      default:
+        title: emoji
+        description: an emoji keyboard for Firefox OS 2.0+
+        site_name: emoji
+        type: website
+        image: 'http://enwin.io/emoji/media/icons/favicon-192x192.png'
+        locale: en
+        url: 'http://enwin.io/emoji/'

@@ -1,0 +1,46 @@
+
+/* != Header
+--------------------------------------------------------------------------- */
+nav[role=navigation]
+   a
+      &:hover
+      &:focus
+      &:active
+         background-color: inherit
+
+/* != Main
+--------------------------------------------------------------------------- */
+main
+
+   [id=screens]
+      li
+         width: rnd( 100%/3 )
+
+         figure
+            box-shadow: 0 0 10px rgba( $grey-dark, 0.3 )
+            overflow: hidden
+            position: relative
+
+            img
+               box-shadow: none
+               display: block
+
+            &:hover
+            &:focus
+               figcaption
+                  transition-timing-function: ease-out
+                  transform: translateY( 0 )
+
+         figcaption
+            background-color: $dark
+            background-color: rgba( $dark, 0.7 )
+            bottom: 0
+            box-sizing: border-box
+            color: $light
+            left: 0
+            margin: 0
+            padding: rnd( 10em/$fz ) rnd( 5em/$fz )
+            position: absolute
+            transform: translateY( 100% )
+            transition: transform 0.2s ease-in
+            width: 100%

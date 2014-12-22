@@ -1,0 +1,32 @@
+block vars
+  - var l10n = locale.en;
+
+
+extends _layout/default
+
+block content
+  div.wrapper
+
+    div.intro
+      each text in l10n.main.intro
+        p!= text
+
+    section#screens
+      h2.stt!= l10n.main.screens.title
+
+      ul.screens
+        each caption, screen in l10n.main.screens.shots
+          li
+            figure
+              figcaption!= caption
+              img( src=[ url.dyn, 'screenshots', screen ].join('/') )
+
+    section#info
+      h2.stt!= l10n.main.more.title
+      each text in l10n.main.more.text
+        p!= text
+
+    section#get
+      h2.stt!= l10n.main.get.title
+      a.marketplace(href="https://marketplace.firefox.com/app/emoji-keyboard/" target="_blank" title=l10n.main.get.caption)
+        img( src=[url.img, 'marketplace.png'].join('/') )
