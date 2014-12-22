@@ -1,0 +1,8 @@
+if meta.card
+  meta( name="twitter:card" content="summary_large_image")
+  each content, name in meta.card.default
+    meta( name=["twitter", name].join(':') content=content )
+
+if meta.opengraph
+  each content, name in meta.opengraph.default
+    meta( name=["og", name].join(':') content=content )
