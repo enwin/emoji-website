@@ -1,5 +1,4 @@
 if meta.card
-  meta( name="twitter:card" content="summary_large_image")
   each content, name in meta.card.default
     meta( name=["twitter", name].join(':') content=content )
 
