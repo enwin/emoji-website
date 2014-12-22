@@ -16,18 +16,18 @@
       - initial-scale=1
     card:
       default:
-        card: summary_large_image
-        site: ''
-        creator: ''
+        card: summary
+        site: '@enwin'
         title: emoji
-        description: desc
-        "image:src": ''
+        description: an emoji keyboard for Firefox OS 2.0+
+        image: 'http://enwin.io/emoji/media/icons/apple-touch-icon-120x120.png'
+        url: 'http://enwin.io/emoji/'
     opengraph:
       default:
         title: emoji
-        description: desc
+        description: an emoji keyboard for Firefox OS 2.0+
         site_name: emoji
         type: website
-        image: ''
-        local: en
-        url: ''
+        image: 'http://enwin.io/emoji/media/icons/favicon-192x192.png'
+        locale: en
+        url: 'http://enwin.io/emoji/'
